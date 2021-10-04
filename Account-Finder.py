@@ -1,7 +1,9 @@
 
+
 #  Python--3.9
 #  https;//github.com/derradjib76f
 #  https://github.com/derradj.i
+
 
 import requests
 import sys
@@ -53,7 +55,7 @@ def Options():
         else:
             print ('\033[0;31mSorry There are NoThing ON Demo ... \033[0;35m:/\033[0m')
         Account = 0
-        for Account in range(10):
+        for Account in range(10000):
 #           os.system('cd SRC')
             Account = Account + 1
             Link = "https://www.facebook.com/"f"{first_name}.{last_name}.{Account}"
